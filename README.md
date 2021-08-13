@@ -11,3 +11,5 @@
 ## 02 `dict`用法:`defaultdict`
 ### 相关介绍：合并相同键值的字典
         # 使用collections模块中的defaultdict来构造的字典
+        l = [('a', 2), ('b', 3), ('a', 1), ('b', 4), ('a', 3), ('a', 1), ('b', 3)]
+        d = defaultdict(list)
