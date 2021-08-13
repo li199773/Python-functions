@@ -12,4 +12,4 @@
 ### 相关介绍：合并相同键值的字典
         # 使用collections模块中的defaultdict来构造的字典
         l = [('a', 2), ('b', 3), ('a', 1), ('b', 4), ('a', 3), ('a', 1), ('b', 3)]
-        d = defaultdict(list)
+        d = defaultdict(list) # 输出defaultdict(<class 'list'>, {'a': [2, 1, 3, 1], 'b': [3, 4, 3]}) 将相同键进行合并
