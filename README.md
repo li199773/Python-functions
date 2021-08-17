@@ -15,4 +15,4 @@
         l = [('a', 2), ('b', 3), ('a', 1), ('b', 4), ('a', 3), ('a', 1), ('b', 3)]
         d = defaultdict(list) # 输出defaultdict(<class 'list'>, {'a': [2, 1, 3, 1], 'b': [3, 4, 3]}) 将相同键进行合并
 ### 2.输出键值：
-        for x, y in dict.items(): # item用法，只输出键：直接循环即可，
+        for x, y in dict.items(): # item用法，只输出键：直接循环即可，输出值使用.values()函数。
