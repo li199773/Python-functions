@@ -23,3 +23,5 @@
         people = People("li", 24, 60) # 传入参数，直接调用即可
         people.funtion()
         people.funtion1() 
+#### 2.类的单层继承
+        class Student(People):  # student 继承上面的People这个类,People为父类，student为子类
