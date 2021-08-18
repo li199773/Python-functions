@@ -26,5 +26,5 @@
 #### 2.类的单层继承
         class Student(People):  # student 继承上面的People这个类,People为父类，student为子类
 #### 3.累的多层继承
-class Topic(Student, Speaker): # 创建子类Topic，继承Student, Speaker的父类
-# 及时子类Topic没有funtion2，但是父类Student, Speaker有funtion2，同样可以进行调用
+        class Topic(Student, Speaker): # 创建子类Topic，继承Student, Speaker的父类
+        及时子类Topic没有funtion2，但是父类Student, Speaker有funtion2，同样可以进行调用
