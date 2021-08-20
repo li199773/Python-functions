@@ -6,3 +6,4 @@
 #### 2.语法：
         t = threading.Thread(target=fun)
         t.start() # 当调用Thread的时候不会创建线程，当调用创建出来的实例对象star方法的时候才会创建线程
+## 02 线程的共享：多线程之间是共享的机制
