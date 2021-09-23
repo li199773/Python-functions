@@ -29,5 +29,6 @@
         class Topic(Student, Speaker): # 创建子类Topic，继承Student, Speaker的父类
         # 及时子类Topic没有funtion2，但是父类Student, Speaker有funtion2，同样可以进行调用。
 ## 04 `Python`并发操作
-### 学习`python`里面多线程，多进程，线程池多任务，具体文件查看`READER.ME`文件
+### `python`里面多线程，多进程，线程池多任务，具体文件查看`READER.ME`文件
 ## 05 `Try Exception`异常处理
+### `python`里面异常处理，具体文件查看`READER.ME`文件
