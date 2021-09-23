@@ -3,4 +3,4 @@
 ### 相关说明：重点讲解异常处理的一些结构
     try:
     except:
-    except BaseException as e: # 进行打印
+    except BaseException as e: # 进行打印出错的对象说明错误点
