@@ -4,3 +4,5 @@
     try:
     except:
     except BaseException as e: # 进行打印出错的对象说明错误点
+## 02 常见的异常
+### 相关说明
