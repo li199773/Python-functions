@@ -7,3 +7,4 @@
 ## 02 常见的异常
 ### 相关说明：学习几种常见的异常报错：`SyntaxError`,`NameError`,`ZeroDivisionError`,`ValueError`,`TypeError`,`AttributeError`,`IndexError`,`KeyError`等
 ## 03 close()异常操作
+### 相关说明:2中
