@@ -1,5 +1,7 @@
 # Python-Common-functions
 # 本章主要学习常用的有关Python函数
+## 01 `Try Exception`异常处理
+### `python`里面异常处理，具体文件查看`READER.ME`文件
 ## 02 文件读取:`glod()`函数,`os.walk()`函数
 ### 02.01 `glod()`函数
 ### 相关问题：获取文件的路径，还可以获取文件夹下子文件中文件的相关路径。
@@ -31,5 +33,4 @@
         # 及时子类Topic没有funtion2，但是父类Student, Speaker有funtion2，同样可以进行调用。
 ## 04 `Python`并发操作
 ### `python`里面多线程，多进程，线程池多任务，具体文件查看`READER.ME`文件
-## 05 `Try Exception`异常处理
-### `python`里面异常处理，具体文件查看`READER.ME`文件
+
