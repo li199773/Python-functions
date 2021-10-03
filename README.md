@@ -11,7 +11,7 @@
         ?:代表一个字符
         []匹配指定范围内的字符，如[0-9]匹配数字
         **/*.txt 这个经常使用，可以深入子目录下面的目录中去。
-### 02.02 os.walk()函数：可以遍历出指定
+### 02.02 os.walk()函数：可以遍历出指定路径下面的文件夹和文件内容
         for dirname in dir:  # 遍历指定文件夹下面的所有的文件夹名字
         print(os.path.join(root, dirname))
         for filename in files:
