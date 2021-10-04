@@ -16,6 +16,7 @@
         print(os.path.join(root, dirname))
         for filename in files:
         print(os.path.join(root, filename))  # 遍历指定文件夹下面的所有的文件的名字
+### 02.03 文件读写
 ## 02 `dict`用法:`defaultdict`
 ### 相关介绍：
 ### 1.合并相同键值的字典
