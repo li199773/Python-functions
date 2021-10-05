@@ -20,3 +20,4 @@
 ## 02.04 文件拷贝压缩：`shutil`函数，`zipfile`函数
 ### (1)`shutil`函数
         shutil.copyfile(path_before, path_after)  # 文件复制 path_before:文件之前的路径，path_after:保存文件的路径
+        shutil.copytree(dir_before, dir_after)  # 只有拷贝之后没有这个文件夹才会执行，否则会进行报错
