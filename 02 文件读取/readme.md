@@ -28,3 +28,4 @@
         zf = zipfile.ZipFile
         zf.write(压缩之前文件的路径, arcname="xxx")  # arcname可以将路径消除，并且可以修改压缩之后文件的名称
         zf.close()
+### `zipfile.ZipFile`的缺点是只能进行压缩一个文件，例如txt,csv文件，但是`shutil`函数既可以压缩文件也可以进行压缩文件夹。
