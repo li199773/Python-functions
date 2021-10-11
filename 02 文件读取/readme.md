@@ -22,5 +22,6 @@
         shutil.copyfile(path_before, path_after)  # 文件复制 path_before:文件之前的路径，path_after:保存文件的路径
         shutil.copytree(dir_before, dir_after)  # 只有拷贝之后没有这个文件夹才会执行，否则会进行报错
 ### (2)文件压缩:`zipfile`函数
-        # 方式一:shutil.make_archive
+        # 方式一:`shutil.make_archive`
         shutil.make_archive(压缩之后文件的路径, "zip", 压缩之前文件的路径)
+        # 方式二:`zipfile.ZipFile`
