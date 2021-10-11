@@ -26,5 +26,5 @@
         shutil.make_archive(压缩之后文件的路径, "zip", 压缩之前文件的路径)
         # 方式二:`zipfile.ZipFile`
         zf = zipfile.ZipFile
-        zf.write(, arcname="xxx")
+        zf.write(压缩之前文件的路径, arcname="xxx")
         zf.close()
