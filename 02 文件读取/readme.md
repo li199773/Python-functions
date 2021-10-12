@@ -31,7 +31,4 @@
 ### `zipfile.ZipFile`的缺点是只能进行压缩一个文件，例如txt,csv文件，但是`shutil`函数既可以压缩文件也可以进行压缩文件夹。
         # 文件夹的压缩
         with zipfile.ZipFile("文件名称.zip", "w") as target: # 另一种格式
-        for root, dir, files in os.walk(path):
-                for file in files:
-                    # arcname 同样子是修改名称，打开文件夹就是
-                    target.write(os.path.join(root, file), arcname=file)  # 首先循环遍历在指定文件夹下面的文件，将每个问价写入压缩包中即可
+        for root, dir, files in os.walk(path): # 遍历目录下面所有的文件名称
