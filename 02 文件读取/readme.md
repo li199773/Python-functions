@@ -32,3 +32,4 @@
         # 文件夹的压缩
         with zipfile.ZipFile("文件名称.zip", "w") as target: # 另一种格式
         for root, dir, files in os.walk(path): # 遍历目录下面所有的文件名称
+                target.write(os.path.join(root, file), arcname=file)  # 将每个问价写入压缩包中即可，同样
