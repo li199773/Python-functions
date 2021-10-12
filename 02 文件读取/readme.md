@@ -16,7 +16,7 @@
 ### 相关说明：
 #### (1) open()文件写入，详细查看py文件
 #### (2) csv()文件写入，详细查看py文件
-### (3) 文件的读取：全部读取；按行读取
+#### (3) 文件的读取：全部读取；按行读取
 ## 02.04 文件拷贝压缩：`shutil`函数，`zipfile`函数
 ### (1)文件拷贝:`shutil`函数
         shutil.copyfile(path_before, path_after)  # 文件复制 path_before:文件之前的路径，path_after:保存文件的路径
