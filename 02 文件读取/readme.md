@@ -30,3 +30,4 @@
         zf.close()
 ### `zipfile.ZipFile`的缺点是只能进行压缩一个文件，例如txt,csv文件，但是`shutil`函数既可以压缩文件也可以进行压缩文件夹。
         # 文件夹的压缩
+        with zipfile.ZipFile("文件名称.zip", "w") as target: # 另一种格式
