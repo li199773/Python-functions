@@ -12,3 +12,4 @@
     a.sort(key=lambda x: x[1])
     print(a) # 按照元祖里面的第二项进行排序
 ## 02 map()表达式
+### 相关介绍：`map()`的原型是`map(function, iterable, …)`，它的返回结果是一个列表。
