@@ -8,3 +8,6 @@
     for list in lists:
         print(list(2))
 #### (2) 排序有很大的功能(xx,xx),(xxx,xxx,xxx)诸如多个元祖的排序
+    a = [(14, 5), (2, 0), (5, 9), (4, 4)]
+    a.sort(key=lambda x: x[1])
+    print(a) # 按照元祖里面的第二项进行排序
