@@ -7,3 +7,4 @@
     lists = [lambda x: x ** 2, lambda x: x ** 4]
     for list in lists:
         print(list(2))
+#### (2) 排序有很大的功能(xx,xx),(xxx,xxx,xxx)诸如多个元祖的排序
