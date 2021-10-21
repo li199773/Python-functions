@@ -3,3 +3,7 @@
 ### 相关介绍：lambda表达式是`python`中一种快递定义单行的表达式。
 #### 形式：
     lambda x, y, z: y # 冒号前面是传入的参数，后面是想要输出的值
+#### (1) 与列表进行组合使用
+    lists = [lambda x: x ** 2, lambda x: x ** 4]
+    for list in lists:
+        print(list(2))
