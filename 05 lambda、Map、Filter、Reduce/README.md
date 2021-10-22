@@ -14,4 +14,4 @@
 ## 02 map()表达式
 ### 相关介绍：`map()`的原型是`map(function, iterable, …)`，它的返回结果是一个列表。···表示可以传很多个列表。
     # 匿名函数
-    print(list(map(lambda n: n * n, [1, 2, 3, 4, 5]))) #
+    print(list(map(lambda n: n * n, [1, 2, 3, 4, 5]))) # 根据传入的值输出其平方值，传入一个列表即可
