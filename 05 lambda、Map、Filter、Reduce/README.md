@@ -13,3 +13,5 @@
     print(a) # 按照元祖里面的第二项进行排序
 ## 02 map()表达式
 ### 相关介绍：`map()`的原型是`map(function, iterable, …)`，它的返回结果是一个列表。···表示可以传很多个列表。
+    # 匿名函数
+    print(list(map(lambda n: n * n, [1, 2, 3, 4, 5]))) #
