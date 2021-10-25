@@ -21,3 +21,4 @@
     list3 = [1, 2, 3]
     res = list(map(add, list1, list2, list3))
     print(res)  # 加很多的实施并行：既1+1+1,2+2+2,3+3+3这样子
+### 03 `filter()`函数
