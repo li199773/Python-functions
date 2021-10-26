@@ -26,7 +26,7 @@
     # 方式一：筛选出大于5的数字
     for i in range(10):
         if i > 5:
-            print(i)
+        print(i)
     # 方式二:
     print(list(filter(lambda x: x > 5, numbers)))
     filter() 类似一个for循环，但它是一个内置的函数，要比for更快
