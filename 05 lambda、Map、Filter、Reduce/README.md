@@ -28,5 +28,5 @@
         if i > 5:
         print(i)
     # 方式二:
-    print(list(filter(lambda x: x > 5, numbers)))
+    print(list(filter(lambda x: x > 5, numbers))) # 如果要转换为列表，可以使用 list()来转换。
     filter() 类似一个for循环，但它是一个内置的函数，要比for更快
