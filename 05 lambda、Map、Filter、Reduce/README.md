@@ -29,4 +29,4 @@
             print(i)
     # 方式二:
     print(list(filter(lambda x: x > 5, numbers)))
-    """filter() 类似一个for循环，但它是一个内置的函数，要比for更快"""
+    filter() 类似一个for循环，但它是一个内置的函数，要比for更快
