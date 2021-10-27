@@ -34,4 +34,4 @@
 ### 相关介绍：`reduce()`作用：对序列中的元素进行积累，作用于这个列表的整体`map()`是将定义的函数作用于列表的每个值
     # 累加操作
     print(reduce(lambda x, y: x + y, numbers)) # 默认情况下第一项为1
-    print(reduce(lambda x, y: x + y, numbers))
+    print(reduce(lambda x, y: x + y, numbers),2) # 从2开始进行累加
