@@ -35,3 +35,5 @@
     # 累加操作
     print(reduce(lambda x, y: x + y, numbers)) # 默认情况下第一项为1
     print(reduce(lambda x, y: x + y, numbers),2) # 从2开始进行累加
+    # 阶乘操作
+    
