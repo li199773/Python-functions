@@ -31,3 +31,4 @@
     print(list(filter(lambda x: x > 5, numbers))) # 如果要转换为列表，可以使用 list()来转换。
     filter() 类似一个for循环，但它是一个内置的函数，要比for更快
 ## 04 `Reduce()`函数
+### 相关介绍：reduce()作用：对序列中的元素进行积累，作用于这个列表的整体 map()是将定义的函数作用于列表的每个值
