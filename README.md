@@ -44,3 +44,4 @@
 ## 04 `list`操作：具体查看list文件夹
 ## 05 `lambda`表达式:包括`lambda`表达式，与`map()`函数，`filter()`函数，`reduce()`函数组合使用，具体查看lambda表达式文件夹。
 ## 06 `dict`用法：
+## 07 加密模块:hashlib,base64
