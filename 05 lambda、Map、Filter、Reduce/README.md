@@ -41,3 +41,7 @@
     print(reduce(lambda x, y: x * y, range(1, 6)))  # 输出5的阶乘
 ## 05 `sorted()`函数
 ### 相关介绍：sorted()作为 Python 内置函数之一，其功能是对序列（列表、元组、字典、集合、还包括字符串）进行排序。
+### 1.与lambda()函数组合使用
+    # 按照取值的长度按照从大到小进行排列
+    a = ['55555', '4444', '333', '22', '1']
+    print(sorted(a, key=lambda x: len(x), reverse=True))
