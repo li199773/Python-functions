@@ -45,3 +45,4 @@
     # 按照取值的长度按照从大到小进行排列
     a = ['55555', '4444', '333', '22', '1']
     print(sorted(a, key=lambda x: len(x), reverse=True))
+### 2.引入`operator`模块 更为简介
