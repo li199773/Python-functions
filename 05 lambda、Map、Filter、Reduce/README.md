@@ -46,3 +46,4 @@
     a = ['55555', '4444', '333', '22', '1']
     print(sorted(a, key=lambda x: len(x), reverse=True))
 ### 2.引入`operator`模块 更为简介
+    key=operator.itemgetter(2) # 与lambda操作大体一致，按照元祖第三项的大小进行排列
