@@ -1,0 +1,51 @@
+2022-05-27 00:39:48 04 logging≈‰÷√.py DEBUG this is root logger
+2022-05-27 00:39:48 04 logging≈‰÷√.py INFO this is root logger
+2022-05-27 00:39:48 04 logging≈‰÷√.py WARNING this is root logger
+2022-05-27 00:39:48 04 logging≈‰÷√.py ERROR this is root logger
+2022-05-27 00:39:48 04 logging≈‰÷√.py CRITICAL this is root logger
+2022-05-27 00:40:11 04 logging≈‰÷√.py DEBUG this is root logger
+2022-05-27 00:40:11 04 logging≈‰÷√.py INFO this is root logger
+2022-05-27 00:40:11 04 logging≈‰÷√.py WARNING this is root logger
+2022-05-27 00:40:11 04 logging≈‰÷√.py ERROR this is root logger
+2022-05-27 00:40:11 04 logging≈‰÷√.py CRITICAL this is root logger
+this is root logger
+this is root logger
+this is root logger
+this is root logger
+this is root logger
+2022-05-27 00:46:43 04 logging≈‰÷√.py DEBUG this is root logger
+2022-05-27 00:46:43 04 logging≈‰÷√.py INFO this is root logger
+2022-05-27 00:46:43 04 logging≈‰÷√.py WARNING this is root logger
+2022-05-27 00:46:43 04 logging≈‰÷√.py ERROR this is root logger
+2022-05-27 00:46:43 04 logging≈‰÷√.py CRITICAL this is root logger
+2022-05-27 10:59:47|DEBUG   |this is root logger
+2022-05-27 10:59:47|INFO    |this is root logger
+2022-05-27 10:59:47|WARNING |this is root logger
+2022-05-27 10:59:47|ERROR   |this is root logger
+2022-05-27 10:59:47|CRITICAL|this is root logger
+2022-05-30 10:35:38|DEBUG   |this is root logger
+2022-05-30 10:35:38|INFO    |this is root logger
+2022-05-30 10:35:38|WARNING |this is root logger
+2022-05-30 10:35:38|ERROR   |this is root logger
+2022-05-30 10:35:38|CRITICAL|this is root logger
+2022-05-30 10:40:18|DEBUG   |[36mThis is debug Logger[0m
+2022-05-30 10:40:18|INFO    |[1;31mThis is warn Logger[0m
+2022-05-30 10:40:18|WARNING |[1;4;31mThis is error Logger[0m
+2022-05-30 10:40:18|ERROR   |[35mThis is omitted Logger[0m
+2022-05-30 10:40:18|CRITICAL|[32mThis is normal Logger[0m
+2022-05-30 10:47:49|WARNING |division by zero
+2022-05-30 10:48:53|WARNING |04 logging≈‰÷√.py[:22]|division by zero
+2022-05-30 10:49:53|WARNING |04 logging≈‰÷√.py[:22]|name 'a' is not defined
+2022-05-30 10:51:40|WARNING |04 logging≈‰÷√.py[:22]|invalid literal for int() with base 10: 'abc'
+2022-05-30 10:52:13|WARNING |04 logging≈‰÷√.py[:22]|invalid literal for int() with base 10: 'abc'
+2022-05-30 10:52:13|ERROR   |04 logging≈‰÷√.py[:23]|invalid literal for int() with base 10: 'abc'
+Traceback (most recent call last):
+  File "D:/Pycharm-window/PycharmProjects/Python∫Ø ˝/11 »’÷æƒ£øÈ/04 logging≈‰÷√.py", line 20, in <module>
+    int(a)
+ValueError: invalid literal for int() with base 10: 'abc'
+2022-05-30 11:12:20|WARNING |invalid literal for int() with base 10: 'abc'
+2022-05-30 11:12:20|ERROR   |invalid literal for int() with base 10: 'abc'
+Traceback (most recent call last):
+  File "D:/Pycharm-window/PycharmProjects/Python∫Ø ˝/11 »’÷æƒ£øÈ/04 logging≈‰÷√.py", line 20, in <module>
+    int(a)
+ValueError: invalid literal for int() with base 10: 'abc'
