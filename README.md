@@ -45,4 +45,4 @@
 ## 05 `lambda`表达式:包括`lambda`表达式，与`map()`函数，`filter()`函数，`reduce()`函数组合使用，具体查看lambda表达式文件夹。
 ## 06 `dict`用法：
 ## 07 加密算法:`hashlib`,`base64`。具体查看文件夹。
-## 11 `日志模块`
+## 11 `logging`日志模块
